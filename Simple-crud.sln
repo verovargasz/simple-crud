@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple-Crud", "Simple-Crud\Simple-Crud.csproj", "{AE750E90-CFD5-4C5F-B75D-8C3D60B1F040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE750E90-CFD5-4C5F-B75D-8C3D60B1F040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE750E90-CFD5-4C5F-B75D-8C3D60B1F040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE750E90-CFD5-4C5F-B75D-8C3D60B1F040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE750E90-CFD5-4C5F-B75D-8C3D60B1F040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
