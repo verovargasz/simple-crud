@@ -1,0 +1,35 @@
+<div class="page">
+  <div class="page-header">
+    <h1>Items</h1>
+    <div class="header-actions">
+      <span class="item-count" *ngIf="!loading">{{ items.length }} item{{ items.length !== 1 ? 's' : '' }}</span>
+      <button class="btn" (click)="loadItems()">↻ Refresh</button>
+      <a class="btn btn-primary" routerLink="/items/new">+ Add item</a>
+    </div>
+  </div>
+
+  <div class="msg msg-ok" *ngIf="successMessage">{{ successMessage }}</div>
+  <div class="msg msg-err" *ngIf="error">{{ error }}</div>
+
+  <p class="empty" *ngIf="loading">Loading...</p>
+  <p class="empty" *ngIf="!loading && items.length === 0">No items yet. <a routerLink="/items/new">Add one.</a></p>
+
+  <div class="card" *ngFor="let item of items">
+    <div class="card-header">
+      <div class="card-info">
+        <div class="card-title">
+          {{ item.name }}
+          <span class="badge badge-active" *ngIf="item.active">Active</span>
+          <span class="badge badge-inactive" *ngIf="!item.active">Inactive</span>
+          <span class="badge badge-cat" *ngIf="item.category">{{ item.category }}</span>
+        </div>
+        <div class="card-meta">#{{ item.itemId }}<span *ngIf="item.description"> · {{ item.description }}</span></div>
+      </div>
+      <div class="card-actions">
+        <span class="item-price">${{ item.price | number:'1.2-2' }}</span>
+        <a class="btn" [routerLink]="['/items', item.itemId, 'edit']">Edit</a>
+        <button class="btn btn-danger" (click)="deleteItem(item.itemId!)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>

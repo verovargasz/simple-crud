@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vivi/RiderProjects/WebApplication1/Simple-Crud/Simple-Crud.csproj": {}
+    "C:\\Users\\Vivi\\RiderProjects\\simple-crud\\Simple-Crud\\Simple-Crud.csproj": {}
   },
   "projects": {
-    "/Users/vivi/RiderProjects/WebApplication1/Simple-Crud/Simple-Crud.csproj": {
+    "C:\\Users\\Vivi\\RiderProjects\\simple-crud\\Simple-Crud\\Simple-Crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vivi/RiderProjects/WebApplication1/Simple-Crud/Simple-Crud.csproj",
+        "projectUniqueName": "C:\\Users\\Vivi\\RiderProjects\\simple-crud\\Simple-Crud\\Simple-Crud.csproj",
         "projectName": "Simple-Crud",
-        "projectPath": "/Users/vivi/RiderProjects/WebApplication1/Simple-Crud/Simple-Crud.csproj",
-        "packagesPath": "/Users/vivi/.nuget/packages/",
-        "outputPath": "/Users/vivi/RiderProjects/WebApplication1/Simple-Crud/obj/",
+        "projectPath": "C:\\Users\\Vivi\\RiderProjects\\simple-crud\\Simple-Crud\\Simple-Crud.csproj",
+        "packagesPath": "C:\\Users\\Vivi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vivi\\RiderProjects\\simple-crud\\Simple-Crud\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/vivi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Vivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/10.0.105/libexec/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -79,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.105/libexec/sdk/10.0.105/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
